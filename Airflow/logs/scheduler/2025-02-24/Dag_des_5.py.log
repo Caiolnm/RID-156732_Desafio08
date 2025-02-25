@@ -1,0 +1,384 @@
+[2025-02-24T03:53:52.470+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:53:52.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:53:52.704+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:53:52.704+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:54:24.817+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:54:24.808+0000] {timeout.py:68} ERROR - Process timed out, PID: 72
+[2025-02-24T03:54:56.464+0000] {processor.py:161} INFO - Started process (PID=143) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:54:56.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:54:56.470+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:54:56.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:54:57.797+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:54:57.980+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:54:57.979+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:upload_bronze
+[2025-02-24T03:54:57.998+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:54:57.998+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:upload_bronze
+[2025-02-24T03:54:58.007+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:54:58.006+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:upload_bronze
+[2025-02-24T03:54:58.009+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:54:58.008+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:54:58.032+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:54:58.029+0000] {dag.py:3118} INFO - Creating ORM DAG for upload_bronze
+[2025-02-24T03:54:58.068+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:54:58.067+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-24T03:54:58.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 1.639 seconds
+[2025-02-24T03:55:35.361+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:55:35.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:55:35.367+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:55:35.367+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:55:36.492+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:55:36.521+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:55:36.520+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:55:36.616+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:55:36.616+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-24T03:55:36.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 1.295 seconds
+[2025-02-24T03:56:11.051+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:56:11.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:56:11.056+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:56:11.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:56:13.468+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:56:13.615+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:56:13.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:56:13.643+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:56:13.642+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-24T03:56:13.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 2.634 seconds
+[2025-02-24T03:56:44.468+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:56:44.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:56:44.474+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:56:44.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:56:45.167+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:56:45.192+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:56:45.191+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:56:45.226+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:56:45.226+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-24T03:56:45.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.796 seconds
+[2025-02-24T03:57:15.835+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:57:15.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:57:15.841+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:57:15.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:57:16.665+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:57:16.690+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:57:16.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:57:16.723+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:57:16.722+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-24T03:57:16.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.922 seconds
+[2025-02-24T03:57:46.831+0000] {processor.py:161} INFO - Started process (PID=455) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:57:46.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:57:46.836+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:57:46.836+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:57:47.814+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:57:47.838+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:57:47.837+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:57:47.873+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:57:47.872+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-24T03:57:47.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 1.072 seconds
+[2025-02-24T03:58:18.878+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:58:18.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:58:18.882+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:58:18.882+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:58:20.080+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:58:22.134+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:58:22.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:58:22.170+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:58:22.169+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T03:58:22.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 3.347 seconds
+[2025-02-24T03:58:50.570+0000] {processor.py:161} INFO - Started process (PID=580) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:58:50.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:58:50.574+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:58:50.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:58:51.291+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:58:51.309+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:58:51.309+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:58:51.331+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:58:51.331+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T03:58:51.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.788 seconds
+[2025-02-24T03:59:22.295+0000] {processor.py:161} INFO - Started process (PID=640) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:59:22.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:59:22.299+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:59:22.299+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:59:20.471+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:59:20.540+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:59:20.539+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:59:20.616+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:59:20.616+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T03:59:20.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.844 seconds
+[2025-02-24T03:59:50.933+0000] {processor.py:161} INFO - Started process (PID=700) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:59:50.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T03:59:50.937+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:59:50.936+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:59:51.531+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T03:59:51.558+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:59:51.557+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T03:59:51.587+0000] {logging_mixin.py:188} INFO - [2025-02-24T03:59:51.586+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T03:59:51.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.687 seconds
+[2025-02-24T04:00:21.721+0000] {processor.py:161} INFO - Started process (PID=760) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:00:21.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:00:21.726+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:00:21.726+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:00:19.875+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:00:19.894+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:00:19.893+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:00:19.915+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:00:19.915+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:00:19.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.707 seconds
+[2025-02-24T04:00:50.075+0000] {processor.py:161} INFO - Started process (PID=799) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:00:50.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:00:50.079+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:00:50.079+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:00:50.670+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:00:50.690+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:00:50.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:00:50.710+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:00:50.710+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:00:50.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.734 seconds
+[2025-02-24T04:01:20.985+0000] {processor.py:161} INFO - Started process (PID=865) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:01:20.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:01:20.989+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:01:20.989+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:01:21.797+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:01:21.829+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:01:21.829+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:01:21.861+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:01:21.861+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:01:19.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.909 seconds
+[2025-02-24T04:01:49.920+0000] {processor.py:161} INFO - Started process (PID=917) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:01:49.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:01:49.924+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:01:49.923+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:01:50.561+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:01:50.584+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:01:50.584+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:01:50.620+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:01:50.620+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:01:50.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.735 seconds
+[2025-02-24T04:02:20.719+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:02:20.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:02:20.722+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:02:20.722+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:02:21.383+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:02:18.922+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:02:18.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:02:18.946+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:02:18.945+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:02:18.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.738 seconds
+[2025-02-24T04:02:49.150+0000] {processor.py:161} INFO - Started process (PID=1029) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:02:49.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:02:49.154+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:02:49.154+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:02:49.979+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:02:50.001+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:02:50.000+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:02:50.032+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:02:50.032+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:02:50.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.923 seconds
+[2025-02-24T04:03:20.626+0000] {processor.py:161} INFO - Started process (PID=1097) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:03:20.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:03:20.629+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:03:20.629+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:03:18.805+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:03:18.829+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:03:18.828+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:03:18.859+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:03:18.858+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:03:18.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.813 seconds
+[2025-02-24T04:03:49.181+0000] {processor.py:161} INFO - Started process (PID=1156) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:03:49.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:03:49.185+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:03:49.185+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:03:49.743+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:03:49.763+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:03:49.762+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:03:49.784+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:03:49.784+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:03:49.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.634 seconds
+[2025-02-24T04:04:20.353+0000] {processor.py:161} INFO - Started process (PID=1216) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:04:20.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:04:20.356+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:04:20.356+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:04:18.469+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:04:18.490+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:04:18.489+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:04:18.518+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:04:18.517+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:04:18.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.681 seconds
+[2025-02-24T04:04:49.058+0000] {processor.py:161} INFO - Started process (PID=1263) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:04:49.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:04:49.062+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:04:49.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:04:49.610+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:04:49.753+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:04:49.753+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:04:49.776+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:04:49.776+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:04:49.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.744 seconds
+[2025-02-24T04:05:19.906+0000] {processor.py:161} INFO - Started process (PID=1325) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:05:19.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:05:19.911+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:05:19.910+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:05:18.178+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:05:18.258+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:05:18.257+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:05:18.306+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:05:18.306+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:05:18.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 1.009 seconds
+[2025-02-24T04:05:48.763+0000] {processor.py:161} INFO - Started process (PID=1381) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:05:48.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:05:48.774+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:05:48.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:05:49.439+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:05:49.714+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:05:49.713+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:05:49.750+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:05:49.749+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:05:49.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 3.530 seconds
+[2025-02-24T04:06:19.903+0000] {processor.py:161} INFO - Started process (PID=1446) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:06:19.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:06:19.907+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:06:19.906+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:06:20.274+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:06:20.295+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:06:20.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:06:20.318+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:06:20.318+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:06:20.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.444 seconds
+[2025-02-24T04:06:51.125+0000] {processor.py:161} INFO - Started process (PID=1506) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:06:51.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:06:51.128+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:06:51.128+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:06:51.599+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:06:51.627+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:06:51.627+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:06:51.658+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:06:51.657+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:06:51.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.572 seconds
+[2025-02-24T04:07:21.985+0000] {processor.py:161} INFO - Started process (PID=1566) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:07:21.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:07:21.999+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:07:21.998+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:07:22.641+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:07:22.667+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:07:22.666+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:07:22.698+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:07:22.698+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:07:22.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.762 seconds
+[2025-02-24T04:07:52.907+0000] {processor.py:161} INFO - Started process (PID=1628) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:07:52.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:07:52.911+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:07:52.911+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:07:53.321+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:07:53.352+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:07:53.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:07:53.385+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:07:53.385+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:07:53.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.516 seconds
+[2025-02-24T04:08:23.533+0000] {processor.py:161} INFO - Started process (PID=1694) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:08:23.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:08:23.536+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:08:23.536+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:08:23.928+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:08:23.958+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:08:23.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:08:23.987+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:08:23.986+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:08:24.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.485 seconds
+[2025-02-24T04:08:54.217+0000] {processor.py:161} INFO - Started process (PID=1752) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:08:54.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:08:54.221+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:08:54.221+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:08:54.624+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:08:54.646+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:08:54.645+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:08:54.675+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:08:54.675+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:08:54.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.488 seconds
+[2025-02-24T04:09:24.824+0000] {processor.py:161} INFO - Started process (PID=1815) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:09:24.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:09:24.827+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:09:24.827+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:09:25.191+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:09:25.212+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:09:25.211+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:09:25.233+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:09:25.233+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:09:25.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.436 seconds
+[2025-02-24T04:09:56.056+0000] {processor.py:161} INFO - Started process (PID=1876) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:09:56.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:09:56.060+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:09:56.059+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:09:56.435+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:09:56.455+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:09:56.455+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:09:56.478+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:09:56.478+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:09:56.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.451 seconds
+[2025-02-24T04:10:27.226+0000] {processor.py:161} INFO - Started process (PID=1936) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:10:27.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:10:27.230+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:10:27.229+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:10:27.601+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:10:27.620+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:10:27.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:10:27.642+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:10:27.642+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:10:27.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.446 seconds
+[2025-02-24T04:10:57.817+0000] {processor.py:161} INFO - Started process (PID=2008) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:10:57.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:10:57.821+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:10:57.821+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:10:58.288+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:10:58.309+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:10:58.309+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:10:58.334+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:10:58.334+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:10:58.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.549 seconds
+[2025-02-24T04:11:28.530+0000] {processor.py:161} INFO - Started process (PID=2071) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:11:28.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:11:28.534+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:11:28.534+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:11:28.966+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:11:28.991+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:11:28.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:11:29.019+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:11:29.019+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:11:29.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.523 seconds
+[2025-02-24T04:11:59.474+0000] {processor.py:161} INFO - Started process (PID=2140) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:11:59.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:11:59.478+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:11:59.478+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:11:59.876+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:11:59.900+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:11:59.900+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:11:59.933+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:11:59.933+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:11:59.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.493 seconds
+[2025-02-24T04:12:30.764+0000] {processor.py:161} INFO - Started process (PID=2209) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:12:30.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:12:30.767+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:12:30.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:12:31.151+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:12:31.174+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:12:31.173+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:12:31.204+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:12:31.203+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:12:31.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.473 seconds
+[2025-02-24T04:13:01.450+0000] {processor.py:161} INFO - Started process (PID=2276) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:13:01.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:13:01.454+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:13:01.453+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:13:01.943+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:13:01.967+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:13:01.966+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:13:01.990+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:13:01.990+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:13:02.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.572 seconds
+[2025-02-24T04:13:32.172+0000] {processor.py:161} INFO - Started process (PID=2339) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:13:32.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:13:32.175+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:13:32.175+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:13:32.603+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:13:32.625+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:13:32.625+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:13:32.649+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:13:32.648+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:13:32.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.509 seconds
+[2025-02-24T04:14:03.091+0000] {processor.py:161} INFO - Started process (PID=2398) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:14:03.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:14:03.095+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:14:03.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:14:03.519+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:14:03.541+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:14:03.541+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:14:03.568+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:14:03.568+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:14:03.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.504 seconds
+[2025-02-24T04:14:33.968+0000] {processor.py:161} INFO - Started process (PID=2458) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:14:33.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:14:33.973+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:14:33.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:14:34.370+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:14:34.392+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:14:34.391+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:14:34.422+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:14:34.421+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:14:34.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.487 seconds
+[2025-02-24T04:15:04.528+0000] {processor.py:161} INFO - Started process (PID=2520) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:15:04.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:15:04.531+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:15:04.531+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:15:04.913+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:15:04.934+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:15:04.934+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:15:04.958+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:15:04.958+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:15:04.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.457 seconds
+[2025-02-24T04:15:35.895+0000] {processor.py:161} INFO - Started process (PID=2582) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:15:35.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:15:35.899+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:15:35.898+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:15:36.295+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:15:36.317+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:15:36.316+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:15:36.342+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:15:36.342+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:15:36.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.480 seconds
+[2025-02-24T04:16:07.328+0000] {processor.py:161} INFO - Started process (PID=2643) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:16:07.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:16:07.332+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:16:07.331+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:16:07.756+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:16:07.777+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:16:07.777+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:16:07.799+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:16:07.799+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:16:07.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.500 seconds
+[2025-02-24T04:16:38.080+0000] {processor.py:161} INFO - Started process (PID=2704) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:16:38.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:16:38.085+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:16:38.084+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:16:38.504+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:16:38.528+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:16:38.527+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:16:38.553+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:16:38.553+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:16:38.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.505 seconds
+[2025-02-24T04:17:08.642+0000] {processor.py:161} INFO - Started process (PID=2763) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:17:08.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:17:08.651+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:17:08.650+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:17:09.691+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:17:09.713+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:17:09.713+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:17:09.738+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:17:09.738+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:17:09.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 1.129 seconds
+[2025-02-24T04:17:40.186+0000] {processor.py:161} INFO - Started process (PID=2830) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:17:40.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:17:40.190+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:17:40.190+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:17:40.622+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:17:40.650+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:17:40.649+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:17:40.675+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:17:40.675+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:17:40.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.522 seconds
+[2025-02-24T04:19:06.861+0000] {processor.py:161} INFO - Started process (PID=2857) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:19:06.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:19:06.874+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:19:06.867+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:19:30.427+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:19:30.462+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:19:30.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:19:30.496+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:19:30.496+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:19:30.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 24.651 seconds
+[2025-02-24T04:20:02.104+0000] {processor.py:161} INFO - Started process (PID=2931) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:20:02.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:20:02.108+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:20:02.107+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:20:04.401+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:20:04.453+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:20:04.452+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:20:04.541+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:20:04.538+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:20:04.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 2.507 seconds
+[2025-02-24T04:21:22.855+0000] {processor.py:161} INFO - Started process (PID=2952) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:21:22.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:21:22.858+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:21:22.858+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:21:27.763+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:21:27.801+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:21:27.800+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:21:27.856+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:21:27.856+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:21:27.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 5.204 seconds
+[2025-02-24T04:22:13.297+0000] {processor.py:161} INFO - Started process (PID=3014) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:22:13.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:22:13.303+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:22:13.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:24:08.506+0000] {processor.py:161} INFO - Started process (PID=3078) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:24:08.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:24:08.509+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:24:08.508+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:24:10.062+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:24:10.708+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:24:10.706+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:24:10.776+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:24:10.775+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:24:10.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 2.332 seconds
+[2025-02-24T04:24:41.149+0000] {processor.py:161} INFO - Started process (PID=3142) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:24:41.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:24:41.153+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:24:41.152+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:24:42.213+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:24:42.249+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:24:42.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:24:42.291+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:24:42.290+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:24:42.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 1.185 seconds
+[2025-02-24T04:25:21.035+0000] {processor.py:161} INFO - Started process (PID=3166) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:25:21.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:25:21.038+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:25:21.037+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:25:23.712+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:25:23.752+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:25:23.750+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:25:23.813+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:25:23.812+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:25:23.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 2.887 seconds
+[2025-02-24T04:25:54.267+0000] {processor.py:161} INFO - Started process (PID=3238) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:25:54.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:25:54.271+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:25:54.270+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:25:57.110+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:25:58.557+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:25:58.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:26:01.003+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:26:00.887+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:28:56.314+0000] {processor.py:161} INFO - Started process (PID=3308) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:28:56.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:28:56.351+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:28:56.350+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:28:59.563+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:28:59.868+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:28:59.867+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-24T04:28:59.936+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:28:59.935+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-24 00:00:00+00:00, run_after=2025-02-25 00:00:00+00:00
+[2025-02-24T04:29:00.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 3.731 seconds
+[2025-02-24T04:30:19.940+0000] {processor.py:161} INFO - Started process (PID=3371) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-24T04:30:19.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-24T04:30:19.942+0000] {logging_mixin.py:188} INFO - [2025-02-24T04:30:19.942+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py

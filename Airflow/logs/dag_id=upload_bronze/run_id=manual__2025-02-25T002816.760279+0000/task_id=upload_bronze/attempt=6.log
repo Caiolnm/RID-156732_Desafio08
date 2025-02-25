@@ -1,0 +1,41 @@
+[2025-02-25T00:53:40.358+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-02-25T00:53:41.905+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: upload_bronze.upload_bronze manual__2025-02-25T00:28:16.760279+00:00 [queued]>
+[2025-02-25T00:53:41.913+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: upload_bronze.upload_bronze manual__2025-02-25T00:28:16.760279+00:00 [queued]>
+[2025-02-25T00:53:41.914+0000] {taskinstance.py:2303} INFO - Starting attempt 6 of 6
+[2025-02-25T00:53:42.175+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): upload_bronze> on 2025-02-25 00:28:16.760279+00:00
+[2025-02-25T00:53:42.706+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=676) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-25T00:53:42.710+0000] {standard_task_runner.py:63} INFO - Started process 678 to run task
+[2025-02-25T00:53:42.713+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'upload_bronze', 'upload_bronze', 'manual__2025-02-25T00:28:16.760279+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/Dag_des_5.py', '--cfg-path', '/tmp/tmphjp80ann']
+[2025-02-25T00:53:42.717+0000] {standard_task_runner.py:91} INFO - Job 67: Subtask upload_bronze
+[2025-02-25T00:53:40.998+0000] {task_command.py:426} INFO - Running <TaskInstance: upload_bronze.upload_bronze manual__2025-02-25T00:28:16.760279+00:00 [running]> on host c37e8af922b1
+[2025-02-25T00:53:42.658+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='upload_bronze' AIRFLOW_CTX_TASK_ID='upload_bronze' AIRFLOW_CTX_EXECUTION_DATE='2025-02-25T00:28:16.760279+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-25T00:28:16.760279+00:00'
+[2025-02-25T00:53:42.662+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-02-25T00:53:42.665+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-02-25T00:53:42.666+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/app/upload_bronze.py", line 8, in upload_bronze
+    for file in os.listdir(INPUT_DIR):
+                ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dados'
+[2025-02-25T00:53:44.079+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=upload_bronze, task_id=upload_bronze, execution_date=20250225T002816, start_date=20250225T005341, end_date=20250225T005344
+[2025-02-25T00:53:45.430+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 67 for task upload_bronze ([Errno 2] No such file or directory: '/opt/airflow/dados'; 678)
+[2025-02-25T00:53:56.470+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-02-25T00:53:57.712+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-25T00:53:59.616+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
