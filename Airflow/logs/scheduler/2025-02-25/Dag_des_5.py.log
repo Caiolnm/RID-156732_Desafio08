@@ -2328,3 +2328,60 @@ FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/Caio Mesqu
 [2025-02-25T03:22:39.565+0000] {logging_mixin.py:188} INFO - [2025-02-25T03:22:39.565+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-02-25T03:22:39.586+0000] {logging_mixin.py:188} INFO - [2025-02-25T03:22:39.586+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-25 00:00:00+00:00, run_after=2025-02-26 00:00:00+00:00
 [2025-02-25T03:22:39.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.963 seconds
+[2025-02-25T04:15:04.463+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:15:04.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-25T04:15:04.470+0000] {logging_mixin.py:188} INFO - [2025-02-25T04:15:04.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:15:08.171+0000] {logging_mixin.py:188} INFO - [2025-02-25T04:15:08.133+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/Dag_des_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag_des_5.py", line 6, in <module>
+    from app.upload_bronze import upload_bronze
+  File "/opt/airflow/dags/app/upload_bronze.py", line 14, in <module>
+    upload_bronze()
+  File "/opt/airflow/dags/app/upload_bronze.py", line 8, in upload_bronze
+    for file in os.listdir(INPUT_DIR):
+                ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/Caio Mesquita/Desktop/Data sc/Des_5/RID-156732_Desafio08/Dados'
+[2025-02-25T04:15:08.175+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:15:08.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 3.771 seconds
+[2025-02-25T04:15:38.759+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:15:38.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-25T04:15:38.767+0000] {logging_mixin.py:188} INFO - [2025-02-25T04:15:38.766+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:15:41.229+0000] {logging_mixin.py:188} INFO - [2025-02-25T04:15:41.165+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/Dag_des_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag_des_5.py", line 6, in <module>
+    from app.upload_bronze import upload_bronze
+  File "/opt/airflow/dags/app/upload_bronze.py", line 14, in <module>
+    upload_bronze()
+  File "/opt/airflow/dags/app/upload_bronze.py", line 8, in upload_bronze
+    for file in os.listdir(INPUT_DIR):
+                ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/Caio Mesquita/Desktop/Data sc/Des_5/RID-156732_Desafio08/Dados'
+[2025-02-25T04:15:41.234+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:15:41.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 2.668 seconds
+[2025-02-25T04:16:11.405+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:16:11.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-25T04:16:11.407+0000] {logging_mixin.py:188} INFO - [2025-02-25T04:16:11.407+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:16:11.898+0000] {logging_mixin.py:188} INFO - [2025-02-25T04:16:11.891+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/Dag_des_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Dag_des_5.py", line 6, in <module>
+    from app.upload_bronze import upload_bronze
+  File "/opt/airflow/dags/app/upload_bronze.py", line 14, in <module>
+    upload_bronze()
+  File "/opt/airflow/dags/app/upload_bronze.py", line 8, in upload_bronze
+    for file in os.listdir(INPUT_DIR):
+                ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/Caio Mesquita/Desktop/Data sc/Des_5/RID-156732_Desafio08/Dados'
+[2025-02-25T04:16:11.901+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-25T04:16:11.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.516 seconds

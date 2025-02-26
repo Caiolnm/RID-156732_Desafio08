@@ -24,11 +24,14 @@ def age_to_range(age):
         return "81-90"
     else:
         return "91-100"
-def to_gold(silver_data):
+def to_gold():
     INPUT_DIR = '/mnt/c/Users/Caio Mesquita/Desktop/Data sc/Des_5/RID-156732_Desafio08/camadas/Silver'
     OUTPUT_DIR = '/mnt/c/Users/Caio Mesquita/Desktop/Data sc/Des_5/RID-156732_Desafio08/camadas/Gold'
-   
-    silver_data['age_range'] = silver_data['age'].apply(age_to_range)
-    gold_data = silver_data.groupby(['age_range', 'subscription_status']).size().reset_index(name='user_count')
-    output_file_path = os.path.join(OUTPUT_DIR, file)
-    gold_data.to_csv(output_file_path,index=False)
+    for file in os.listdir(INPUT_DIR):
+        if file.endswith(".csv"):
+            file_path = os.path.join(INPUT_DIR, file)
+            df = pd.read_csv(file_path)
+            df['age_range'] = df['age'].apply(age_to_range)
+            gold_data = df.groupby(['age_range', 'subscription_status']).size().reset_index(name='user_count')
+            output_file_path = os.path.join(OUTPUT_DIR, file)
+            gold_data.to_csv(output_file_path,index=False)
