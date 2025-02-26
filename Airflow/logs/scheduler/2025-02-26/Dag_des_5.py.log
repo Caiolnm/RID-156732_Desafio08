@@ -667,3 +667,17 @@ FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/Caio Mesqu
 [2025-02-26T01:47:49.272+0000] {logging_mixin.py:188} INFO - [2025-02-26T01:47:49.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-02-26T01:47:49.296+0000] {logging_mixin.py:188} INFO - [2025-02-26T01:47:49.295+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-26 00:00:00+00:00, run_after=2025-02-27 00:00:00+00:00
 [2025-02-26T01:47:49.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.619 seconds
+[2025-02-26T01:48:19.366+0000] {processor.py:161} INFO - Started process (PID=3484) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-26T01:48:19.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-26T01:48:19.370+0000] {logging_mixin.py:188} INFO - [2025-02-26T01:48:19.369+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-26T01:48:19.743+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-26T01:48:19.765+0000] {logging_mixin.py:188} INFO - [2025-02-26T01:48:19.764+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-26T01:48:19.789+0000] {logging_mixin.py:188} INFO - [2025-02-26T01:48:19.788+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-26 00:00:00+00:00, run_after=2025-02-27 00:00:00+00:00
+[2025-02-26T01:48:19.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.452 seconds
+[2025-02-26T01:48:49.908+0000] {processor.py:161} INFO - Started process (PID=3548) to work on /opt/airflow/dags/Dag_des_5.py
+[2025-02-26T01:48:49.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Dag_des_5.py for tasks to queue
+[2025-02-26T01:48:49.916+0000] {logging_mixin.py:188} INFO - [2025-02-26T01:48:49.915+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/Dag_des_5.py
+[2025-02-26T01:48:50.493+0000] {processor.py:840} INFO - DAG(s) 'upload_bronze' retrieved from /opt/airflow/dags/Dag_des_5.py
+[2025-02-26T01:48:50.516+0000] {logging_mixin.py:188} INFO - [2025-02-26T01:48:50.515+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-02-26T01:48:50.546+0000] {logging_mixin.py:188} INFO - [2025-02-26T01:48:50.546+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_bronze to 2025-02-26 00:00:00+00:00, run_after=2025-02-27 00:00:00+00:00
+[2025-02-26T01:48:50.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Dag_des_5.py took 0.677 seconds
